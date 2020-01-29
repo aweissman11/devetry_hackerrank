@@ -27,7 +27,7 @@ function shortestSubstring(s) {
     i++;
     if (s.length - i < chars.length) { break }
   }
-  return s.substring(start, start + minSize); // if start undefined will return "" 
+  return s.substring(start, start + minSize);
 }
 
 
@@ -42,7 +42,7 @@ let res2 = shortestSubstring(str2);
 console.log('res2 ==> 13 ==> ', res2);
 console.log('+++++++++++++++++++++++++++++++++++++++++++++');
 
-// let str3 = [1, 2, 1];
-// let res3 = shortestSubstring(str3);
-// console.log('res3 ==> 1 ==> ', res3);
-// console.log('+++++++++++++++++++++++++++++++++++++++++++++');
+let str3 = [1, 2, 1];
+let res3 = shortestSubstring(str3);
+console.log('res3 ==> 1 ==> ', res3);
+console.log('+++++++++++++++++++++++++++++++++++++++++++++');
